@@ -1,52 +1,127 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>Deba Rayne | Author</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deba Rayne | Romantic Fiction Author</title>
   <style>
     body {
-      background-color: #f9f6f1 ;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: "Georgia", serif;
+      background: linear-gradient(to bottom, #fff0f5, #e6e6fa);
       color: #333;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #6a1b9a;
-      font-size: 36px;
-    }
-    p {
-      font-size: 18px;
-      margin: 20px 0;
-    }
-    a.button {
-      padding: 10px 20px;
-      background-color: #9370DB;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .books {
-      margin-top: 30px;
-    }
-    .books img {
-      width: 150px;
-      margin: 10px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+    }header {
+  background-color: #4b0082;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.books img {
+  width: 160px;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.poetry, .about, .contact {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #4b0082;
+  color: white;
+  margin-top: 3rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.socials img {
+  width: 32px;
+  margin: 0 10px;
+}
+
   </style>
 </head>
-<body>
-
-  <h1>Hello, I'm Deba Rayne!</h1>
-  <p>I write books like <strong>Tango Under the Rain</strong> and <strong>Kiss Me Until There’s No You and I </strong>.</p>
-  <a href="https://www.amazon.com/s?i=digital-text&rh=p_27%3ADeba%2BRayne&s=relevancerank&text=Deba+Rayne&ref=dp_byline_sr_ebooks_1" class="button">Click here to see my books</a>
-
-  <div class="books">
-    <img src="Song of Rain (59).png" alt="Tango Under the Rain">
-    <img src="Dear________________________________________________________________________________________________________________________________________________________________________________________________ (1).jpg" alt="Kiss Me Until...">
-  </div>
-
-</body>
+<body>  <header>
+    <div><strong>Deba Rayne</strong></div>
+    <nav>
+      <a href="#books">Books</a>
+      <a href="#poetry">Poetry</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <div class="hero">
+    <h1>Welcome to My World of Romance</h1>
+    <p>Author of <em>Tango Under the Rain</em> and <em>Kiss Me Until There's No You and I Send</em></p>
+    <a class="btn" href="#books">Browse Books</a>
+  </div>  <div class="section books" id="books">
+    <h2>My Books</h2>
+    <div>
+      <img src="Song of Rain (59).png" alt="Tango Under the Rain">
+      <img src="Dear________________________________________________________________________________________________________________________________________________________________________________________________ (1).jpg" alt="Kiss Me Until There's No You and I Send">
+    </div>
+  </div>  <div class="section poetry" id="poetry">
+    <h2>Featured Poem</h2>
+    <p><em>He looked at her, not like a mystery to solve<br>
+    But a memory on the edge of recall...<br>
+    "You ruin me... Every time I breathe, it's you."</em></p>
+  </div>  <div class="section about" id="about">
+    <h2>About Deba Rayne</h2>
+    <p>I write deeply emotional, romantic stories that touch the heart and linger in the soul. Every book is a piece of my heart, shared with you through words. When I'm not writing, you'll find me daydreaming over a cup of coffee, lost in rain-soaked streets and timeless melodies.</p>
+  </div>  <div class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email me: <a href="debasoulink3@gmail.com">your-email@example.com</a></p>
+    <div class="socials">
+      <a href="https://pinterest.com/yourprofile"><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest"></a>
+      <a href="https://youtube.com/yourchannel"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+    </div>
+  </div>  <footer>
+    &copy; 2025 Deba Rayne | All Rights Reserved
+  </footer></body>
 </html>
